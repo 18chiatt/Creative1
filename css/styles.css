@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.page,
+.section,
+body {
+  background-color: black;
+  background: black;
+  color: white;
+  font-family: 'Courier Prime', monospace;
+}
+
+.pageHolder {
+  background-color: black;
+}
+
+.section {
+  border-top: 1px outset #333333;
+  padding-top: 20px;
+  background-color: black;
+}
+
+.navbar-brand {
+  height: 50px;
+  margin-top: 10px;
+}
+
+#brandImage {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.page {
+  min-height: 100vh;
+  background-color: black;
+  border-left: 1px solid #333333;
+  border-right: 1px solid #333333;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  background-color: #343a40;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.footer-group p {
+  color: #FFFFFF;
+  font-size: 25px;
+}
+
+.footer-group {
+  padding: 30px 30px;
+  font-size: 25px;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+p,
+img {
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 1079px) {
+  img {
+    width: 25%;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  #brandImage {
+    width: 90%;
+  }
+
+  .page {
+    width: 75%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,67 @@
+.navBar {
+  list-style-type: none;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  padding: 20px;
+  background-color: #000000;
+}
+
+.navBarItem {
+  display: inline;
+  color: #000000;
+  background-color: #000000;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+.navBarItem a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.navBarItem a:hover{
+  color:#00FF00;
+}
+
+.navBarItem:hover{
+  background-color: #404040;
+}
+
+#cool-paragraph {
+  border: 1px solid #000000;
+  display: block;
+  color: #00BB00;
+}
+
+.EpicText {
+  font-style: italic;
+  display: inline;
+}
+
+.bigBox{
+  padding: 20px;
+  border: 5px dashed #404040
+}
+
+p {
+  display: inline;
+}
+
+.button {
+  color: #FFF;
+  background-color: #5995DA;    /* Blue */
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+
+  width: 200px;
+}
+
+.button:hover {
+  background-color: #FFA500;
+}
